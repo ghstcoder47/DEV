@@ -1,9 +1,11 @@
 @ECHO OFF
 
 
-call bin\setENV_default
 
-set JAVA_VERSION="jdk-version"
+
+set JAVA_VERSION="jdk-8"
+
+call bin\setENV_default
 
 start CMD /K "cd ../"
 REM start CMD /K "cd ../GIT "

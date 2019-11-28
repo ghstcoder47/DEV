@@ -1,0 +1,7 @@
+/*
+!.gitignore
+!bin/
+!_default_workspace.cmd
+!dev_cmd.cmd
+!mongo_dev_local.cmd
+
