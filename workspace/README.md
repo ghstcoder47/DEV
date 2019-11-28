@@ -1,1 +1,0 @@
-hier sind eclipse workspaces für verschiedene projekte zu finden

@@ -1,1 +1,0 @@
-hier sind die core scripte enthalten
