@@ -7,7 +7,12 @@ IF "%JAVA_VERSION%x" == "x" (
 
 	set JAVA_VERSION="jdk-11"
 )
-set JAVA_HOME=%DEV_TOOLS_DIR%/java/%JAVA_VERSION%
+
+IF "%JDK_DIST%x" == "x" (
+	set JDK_DIST=openjdk
+)
+
+set JAVA_HOME=%DEV_TOOLS_DIR%/java/%JDK_DIST%/%JAVA_VERSION%
 
 
 set MAVEN_DIR=apache-maven
